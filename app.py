@@ -27,7 +27,17 @@ def home():
           return "not fand"
     
     return render_template('home.html')
+def keep_alive():
+    while True:
+        try:
+            requests.get("https://your-domain.com/")  # غيّر هذا إلى رابط موقعك
+            print("Pinged successfully!")
+        except Exception as e:
+            print(f"Ping failed: {e}")
+        time.sleep(300)  # كل 5 دقائق = 300 ثانية
 
+# شغل المهمة في الخلفية
+threading.Thread(target=keep_alive, daemon=True).start()
 @app.route("/johnwick1")
 
 def johnwick1():
