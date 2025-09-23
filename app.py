@@ -30,7 +30,7 @@ def home():
 def keep_alive():
     while True:
         try:
-            requests.get("https://your-domain.com/")  # غيّر هذا إلى رابط موقعك
+            requests.get("https://flask-i3r0.onrender.com/")  # غيّر هذا إلى رابط موقعك
             print("Pinged successfully!")
         except Exception as e:
             print(f"Ping failed: {e}")
