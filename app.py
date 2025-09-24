@@ -30,7 +30,7 @@ def home():
 def keep_alive():
     while True:
         try:
-            requests.get("https://flask-i3r0.onrender.com")  # غيّر هذا إلى رابط موقعك
+            requests.get("https://flask-i3r0.onrender.com/home")  # غيّر هذا إلى رابط موقعك
             
         except Exception as e:
         time.sleep(300)  # كل 5 دقائق = 300 ثانية
