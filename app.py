@@ -33,7 +33,7 @@ def keep_alive():
             requests.get("https://flask-i3r0.onrender.com")  # غيّر هذا إلى رابط موقعك
             
         except Exception as e:
-        time.sleep(300)  # كل 5 دقائق = 300 ثانية
+        time.sleep(200)  # كل 5 دقائق = 300 ثانية
 
 # شغل المهمة في الخلفية
 threading.Thread(target=keep_alive, daemon=True).start()
