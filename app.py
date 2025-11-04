@@ -423,8 +423,8 @@ def landofbad():
 def The_MinistryofUngentlemanlyWarfare():
     return render_template('The_MinistryofUngentlemanlyWarfare.html')    
 
-@app.route("/googleeb0cd4b87e0af765")
-def google():
+@app.route('/googleeb0cd4b87e0af765')
+def g():
     return render_template("g.html")
  
 if __name__ == '__main__': 
