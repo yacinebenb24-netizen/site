@@ -423,7 +423,7 @@ def landofbad():
 def The_MinistryofUngentlemanlyWarfare():
     return render_template('The_MinistryofUngentlemanlyWarfare.html')    
 
-@app.route('/googleeb0cd4b87e0af765')
+@app.route('/googleeb0cd4b87e0af765.html')
 def g113():
     return """google-site-verification: googleeb0cd4b87e0af765.html"""
  
