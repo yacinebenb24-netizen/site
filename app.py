@@ -424,8 +424,8 @@ def The_MinistryofUngentlemanlyWarfare():
     return render_template('The_MinistryofUngentlemanlyWarfare.html')    
 
 @app.route('/googleeb0cd4b87e0af765')
-def g():
-    return "google-site-verification: googleeb0cd4b87e0af765.html"
+def g113():
+    return """google-site-verification: googleeb0cd4b87e0af765.html"""
  
 if __name__ == '__main__': 
    app.run(host="0.0.0.0",port=80 ,debug=True)
