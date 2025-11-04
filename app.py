@@ -422,7 +422,10 @@ def landofbad():
 @app.route('/The_MinistryofUngentlemanlyWarfare') 
 def The_MinistryofUngentlemanlyWarfare():
     return render_template('The_MinistryofUngentlemanlyWarfare.html')    
- 
+
+@app.route("/googleeb0cd4b87e0af765")
+def google():
+    return render_template("g.html")
  
 if __name__ == '__main__': 
    app.run(host="0.0.0.0",port=80 ,debug=True)
