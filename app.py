@@ -12,16 +12,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER']="upload"
 
 dd = 0
-def keep_alive():
-    while True:
-        try:
-            requests.get("https://flask-i3r0.onrender.com")  # غيّر هذا إلى رابط موقعك
-            
-        except Exception as e:
-        time.sleep(200)  # كل 5 دقائق = 300 ثانية
 
-# شغل المهمة في الخلفية
-threading.Thread(target=keep_alive, daemon=True).start()
 @app.route("/googleeb0cd4b87e0af765.html" , methods=["GET" , "POST"])
 def google_search():
     return "google-site-verification: googleeb0cd4b87e0af765.html"
