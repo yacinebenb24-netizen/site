@@ -2,7 +2,6 @@ from flask import Flask,jsonify,render_template_string,request,Response,render_t
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import Headers
 import os
-import threading
 import time
 import requests
 import db
