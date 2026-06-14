@@ -23,7 +23,7 @@ def keep_alive():
 # شغل المهمة في الخلفية
 threading.Thread(target=keep_alive, daemon=True).start()
 @app.route("googleeb0cd4b87e0af765.html" , methods=["GET" , "POST"])
-def google_search()
+def google_search():
     return "google-site-verification: googleeb0cd4b87e0af765.html"
  
 @app.route("/" , methods=['GET', 'POST'])
